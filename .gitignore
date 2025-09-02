@@ -1,0 +1,20 @@
+# Terraform local state & cache
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# OS/Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
